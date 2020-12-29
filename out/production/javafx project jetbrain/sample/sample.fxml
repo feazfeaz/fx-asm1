@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -20,7 +21,8 @@
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="417.0" prefWidth="387.0" />
                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="226.0" prefWidth="370.0">
                            <children>
-                              <TextField layoutX="-5.0" layoutY="2.0" prefHeight="26.0" prefWidth="382.0" />
+                              <TextField layoutX="-5.0" layoutY="2.0" prefHeight="26.0" prefWidth="318.0" />
+                              <Button layoutX="330.0" layoutY="2.0" minHeight="-Infinity" minWidth="53.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="53.0" text="Send" AnchorPane.leftAnchor="330.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="2.0" />
                            </children>
                         </AnchorPane>
                     </items>
@@ -35,16 +37,23 @@
                         <TextField layoutX="43.0" layoutY="4.0" prefHeight="26.0" prefWidth="129.0" />
                      </children>
                   </Pane>
-                  <Pane layoutY="40.0" prefHeight="34.0" prefWidth="176.0">
+                  <Pane layoutY="34.0" prefHeight="34.0" prefWidth="176.0">
                      <children>
                         <Text layoutX="6.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Path:" wrappingWidth="36.38309860229492" />
                         <TextField layoutX="43.0" layoutY="4.0" prefHeight="26.0" prefWidth="129.0" />
                      </children>
                   </Pane>
-                  <Pane layoutY="90.0" prefHeight="34.0" prefWidth="176.0">
+                  <Pane layoutY="68.0" prefHeight="34.0" prefWidth="176.0">
                      <children>
                         <Text layoutX="6.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User:" wrappingWidth="36.38309860229492" />
                         <TextField layoutX="43.0" layoutY="4.0" prefHeight="26.0" prefWidth="129.0" />
+                     </children>
+                  </Pane>
+                  <Button layoutX="93.0" layoutY="172.0" mnemonicParsing="false" text="Connect!" />
+                  <Pane layoutY="102.0" prefHeight="34.0" prefWidth="176.0">
+                     <children>
+                        <Text layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To user:" wrappingWidth="53.18314743041992" />
+                        <TextField layoutX="53.0" layoutY="-2.0" prefHeight="32.0" prefWidth="115.0" />
                      </children>
                   </Pane>
                </children>
